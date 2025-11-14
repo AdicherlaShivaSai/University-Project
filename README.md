@@ -53,7 +53,7 @@ root/
 
 ## Install dependencies
 
-Run inside the **frontend** folder:
+Run inside the **client** folder:
 
 ```bash
 npm install
@@ -61,9 +61,9 @@ npm install
 
 ---
 
-# 🔧 Environment Variables (Frontend `.env`)
+# 🔧 Environment Variables (client `.env`)
 
-Create a `.env` file in the **frontend root**:
+Create a `.env` file in the **client root**:
 
 ```
 VITE_PIPEDREAM_WEBHOOK_URL=your_pipedream_webhook_here
@@ -72,7 +72,7 @@ VITE_BACKEND_URL=https://localhost:5000
 
 ---
 
-# ▶ Run Frontend Locally
+# ▶ Run client Locally
 
 ```bash
 npm run dev
@@ -104,10 +104,10 @@ GET /api/fees
 
 # 🚀 2. BACKEND SETUP (Node + Express)
 
-Go to backend folder:
+Go to server folder:
 
 ```bash
-cd backend
+cd server
 ```
 
 Install dependencies:
@@ -124,13 +124,13 @@ npm install -D nodemon
 
 ---
 
-# ▶ Run Backend Locally
+# ▶ Run server Locally
 
 ```bash
 npm run dev
 ```
 
-Backend runs at:
+server runs at:
 
 ```
 http://localhost:5000
@@ -146,10 +146,10 @@ http://localhost:5000/api/fees
 
 ---
 
-# 🌍 3. DEPLOY BACKEND (Render Recommended)
+# 🌍 3. DEPLOY SERVER (Render Recommended)
 
 ### Steps:
-1. Push backend folder to GitHub  
+1. Push server folder to GitHub  
 2. Go to **Render.com → New Web Service**  
 3. Connect repo  
 4. Configure:
@@ -165,10 +165,10 @@ https://university-backend.onrender.com
 
 ---
 
-# 🌍 4. DEPLOY FRONTEND (Netlify or Vercel)
+# 🌍 4. DEPLOY CLIENT (Netlify or Vercel)
 
 ### **For Netlify**
-1. Push frontend to GitHub  
+1. Push client to GitHub  
 2. Click **New Site**  
 3. Set:
    - Build command → `npm run build`
