@@ -1,0 +1,12 @@
+{
+  "id": "university_1",
+  "name": "University One",
+  "overview": "University One is a private university offering technical and management programs.",
+  "courses": ["B.Tech (CSE)", "MBA", "B.Sc (Physics)"],
+  "placements": {
+    "year": 2024,
+    "placed_percentage": 88,
+    "top_recruiters": ["TCS", "Infosys", "Wipro"]
+  },
+  "facilities": ["Library", "Labs", "Hostel"]
+}

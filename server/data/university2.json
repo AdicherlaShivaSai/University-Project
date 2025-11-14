@@ -1,0 +1,12 @@
+{
+  "id": "university_2",
+  "name": "Apex Global University",
+  "overview": "Apex Global focuses on research and interdisciplinary programs.",
+  "courses": ["B.Tech (AI)", "M.A (English)", "BBA"],
+  "placements": {
+    "year": 2024,
+    "placed_percentage": 92,
+    "top_recruiters": ["Google", "Microsoft", "Deloitte"]
+  },
+  "facilities": ["Research Labs", "24/7 Library", "Sports Complex"]
+}
